@@ -1,0 +1,98 @@
+/* .toggle{
+    position: relative;
+    width: 50px;
+    height: 100%;
+}
+
+.toggle::after{
+    content: '';
+    background-color: red;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    border-radius: 50%;
+    top: 0;
+} */
+.inpdiv:hover {
+    background-color: rgba(212 212 212);
+}
+
+.inpdiv:hover .input {
+    background-color: rgba(212 212 212);
+}
+
+.filterbar {
+    z-index: 1;
+}
+
+.profilemodal {
+    position: relative;
+    z-index: 9;
+}
+
+/* .profilemodal::after{
+    content: '';
+    background-color: rgb(229 229 229);
+    position: absolute;
+    width: 20px;
+    left: 75%;
+    top: -3%;
+    height: 20px;
+    transform: rotate(45deg);
+} */
+
+.bodycolor {
+    background-color: red;
+}
+
+.footer {
+    position: relative;
+}
+
+.footer::after {
+    content: '';
+    width: 10%;
+    height: 10px;
+    background-color: rgba(128, 0, 128, 0.444);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.leaflet-container {
+    height: 600px;
+    width: 100vw;
+}
+
+.skeloten {
+    height: 200px;
+    background-color: rgb(173, 167, 167);
+    border-radius: 10px;
+    position: relative;
+}
+
+.shimmer {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.shimmer::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200%;
+    height: 200%;
+    animation: shim 1s infinite linear alternate;
+}
+
+@keyframes shim {
+    0% {
+        background-color: hsl(100, 7%, 70%);
+    }
+
+    100% {
+        background-color: hsl(100, 7%, 95%);
+    }
+}
